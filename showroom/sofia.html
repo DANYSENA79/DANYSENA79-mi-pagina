@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sofia Showroom</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="scrip.js">
+    <link rel="stylesheet" href="recit.css">
+</head>
+<body>
+   <header>
+    <div class="logo">Sofia Showroom</div>
+    <div><img src="sofia.png" alt="sofia"></div>
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#ofertas">Ofertas</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    </header>
+    <hr>
+    <section id="inicio">
+        <div class="banner"> 
+            <h1>Bienvenidos a Sofia Showroom</h1>
+            <p>Tu tienda de Moda femenina</p>
+        </div>
+
+    </section>
+    <hr>
+    
+    <section id="producto">
+        <h2>Nustros Productos</h2>
+        <div class="product-gallery"></div>
+        <div class="product">
+        <img src="jean.jfif" alt="jean">
+        <h3>jean</h3>
+        <p> $ 29.99</p>
+        <div id="productos">
+            <!--Productos Iniciales-->
+            <div class="producto">
+                <img src="sofia1.jpg" class="imagen-pequeña" alt="sofia">
+                producto 1
+
+            </div>
+            <div class="producto">
+                <img src="sofia2.jpg" class="imagen-pequeña" alt="produco">
+                producto 2
+
+            </div>
+            <div class="produco">
+                <img src="sofia 3.jpg" class="imagen-pequeña" alt="producto1">
+                Producto 3
+
+            </div>
+
+        </div>
+        <button
+            onclick="verProducto()">ver mas
+        </button>
+        
+
+        </div>
+          </section>
+
+<hr>
+<section id="ofertas">
+    <h2>Ofertas</h2>
+    <div class="offer-gallery">
+        <div class="offer">
+
+            <img src="desc1.jpg" class="imagen-pequeña" alt="descarga">
+            <h3>Ofertas</h3>
+            <p>Remera manga larga $ 8.99</p>
+            <p>jean $27.99</p>
+
+            <button onclick="verProducto">ver mas</button>
+
+        </div>
+<!--Fin de la oferta -->
+    </div>
+
+</section>
+<hr>
+<section id="Contacto">
+    <h2>Contacto</h2>
+    <form >
+        <label for="name">Nombre</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Correo electronio</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Mensaje</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Enviar </button>
+    </form>
+    <div class="contac-info">
+        <p>Direccion: Corrientes 1548, Goya Ctes</p>
+        <p>Telefono: 3777 720012, 245091</p>
+        <p>Email: danysena101@gmail.com</p>
+
+    </div>
+ </section>
+ <footer> &copy; 2024 Sofia Showroom. Todos los derechos reservados.  D.S (3777 245091)</footer>
+
+
+</body>
+</html>
